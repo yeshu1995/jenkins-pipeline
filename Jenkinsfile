@@ -8,7 +8,7 @@ pipeline {
         stage('Checkout') {
             steps {
                      // Get code from a GitHub repository
-                    git url:'https://github.com/Raviteja1775/git.git', branch: 'main',
+                    git url:'https://github.com/yeshu1995/jenkins-pipeline.git', branch: 'main',
                     credentialsId: 'Git'
             }
         }
